@@ -81,7 +81,7 @@ public class Tela extends javax.swing.JFrame {
         jPanel1.setBackground(java.awt.Color.white);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 32)); // NOI18N
-        jLabel1.setText("Casa da esfiha");
+        jLabel1.setText("Hero's Burguer");
 
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
         jSeparator1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 3));
@@ -107,7 +107,7 @@ public class Tela extends javax.swing.JFrame {
         jLabel6.setText("DESKTOP-A01");
 
         jLabel7.setFont(jPanel2.getFont());
-        jLabel7.setText("Windows XP");
+        jLabel7.setText("Windows 7");
 
         lblStatus.setFont(jPanel2.getFont());
         lblStatus.setText("Operando");
@@ -148,54 +148,96 @@ public class Tela extends javax.swing.JFrame {
         jPanel3.setBackground(java.awt.Color.white);
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(124, 77, 255), 3));
         jPanel3.setPreferredSize(new java.awt.Dimension(90, 90));
-        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(124, 77, 255));
         jLabel10.setText("Memória");
         jLabel10.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, -1, -1));
 
         lblMemoria.setFont(new java.awt.Font("Arial", 1, 32)); // NOI18N
         lblMemoria.setForeground(new java.awt.Color(124, 77, 255));
         lblMemoria.setText("100%");
-        lblMemoria.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel3.add(lblMemoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, -1, -1));
+        lblMemoria.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblMemoria, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel10))
+                .addGap(6, 6, 6))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jLabel10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblMemoria)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         jPanel4.setBackground(java.awt.Color.white);
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 150, 136), 3));
         jPanel4.setPreferredSize(new java.awt.Dimension(90, 90));
-        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(0, 150, 136));
         jLabel11.setText("Disco");
         jLabel11.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel4.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, -1, -1));
 
         lblDisco.setFont(new java.awt.Font("Arial", 1, 32)); // NOI18N
         lblDisco.setForeground(new java.awt.Color(0, 150, 136));
         lblDisco.setText("80%");
-        lblDisco.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel4.add(lblDisco, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, -1, -1));
+        lblDisco.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel11)
+            .addComponent(lblDisco)
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addComponent(jLabel11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblDisco)
+                .addGap(19, 19, 19))
+        );
 
         jPanel5.setBackground(java.awt.Color.white);
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 145, 234), 3));
         jPanel5.setForeground(new java.awt.Color(0, 145, 234));
         jPanel5.setPreferredSize(new java.awt.Dimension(90, 90));
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(0, 145, 234));
         jLabel9.setText("CPU");
         jLabel9.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel5.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(3, 3, -1, -1));
 
         lblCPU.setFont(new java.awt.Font("Arial", 1, 32)); // NOI18N
         lblCPU.setForeground(new java.awt.Color(0, 145, 234));
         lblCPU.setText("80%");
-        lblCPU.setBorder(javax.swing.BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        jPanel5.add(lblCPU, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, -1, -1));
+        lblCPU.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(lblCPU)
+            .addComponent(jLabel9)
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jLabel9)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblCPU)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
         btnAtualizar.setBackground(new java.awt.Color(0, 145, 234));
         btnAtualizar.setForeground(java.awt.Color.white);
